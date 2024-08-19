@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ /* Box-Level */
+            width: 300px;
+            height: 300px;
+
+            border: 10px solid green;
+
+            padding: 10px;
+            
+            /*
+            Se todos os valores forem iguais, pode colocar uma vez só
+            */
+
+            margin: 20px auto 40px auto;
+
+            /*
+            4 Valores: Estipular na ordem do ponteiro do relógio:
+            top - right - bottom - left
+
+            2 Valores: 
+            1° valor (top e bottom) - 2° valor (right e left)
+            */
+
+            outline: 5px dashed salmon;
+        }
+
+        a{ /* Inline-Level */
+            border: 5px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exempos de caixas box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como isso funciona.</p>
+</body>
+</html>
