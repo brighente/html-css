@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 :root{
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
-    --font3: 'Kalam' , cursive;
+    --font3: 'Sriracha' , cursive;
 }
 
 *{
@@ -57,6 +57,10 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -65,12 +69,27 @@ section.normal{
 section.img{
     background-color: rgb(53, 49, 49);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.img > p{
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section.img#back1{  
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+section.img#back2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer{
