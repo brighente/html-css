@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    height: 200vh;
+}
+
+.divpai{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+/* Tem que colocar uma 'condição' para o sticky grudar! */
+
+.sticky{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0%; /*'Condição'*/
+}
+

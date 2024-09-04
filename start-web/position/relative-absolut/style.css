@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(134, 11, 11);
+    position: relative;
+}
+
+.conteudo{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(243, 54, 54);
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
