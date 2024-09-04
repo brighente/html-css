@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'milestone';
+    src: url('../../fonts/MilestoneBrush.otf');
+}
+
+@font-face {
+    font-family: 'italia';
+    src: url('../../fonts/Voice of Truth.otf') format('opentype'), url('../../fonts/Voice\ of\ Truth.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'neoris';
+    src: url('../../fonts/TT\ Neoris\ Trial\ Light.ttf') format('truetype');
+}
+
+:root{
+    --cor0: #66796B;
+    --cor01: #BA8E7A;
+    --cor02: #D7A184;
+    --cor03: #D4C2AD;
+    --cor04: #EFDFCC;
+    --fonte-milestone: 'milestone';
+    --fonte-italia: 'italia';
+    --fonte-neoris: 'neoris';
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor04);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor02);
+    color: white;
+    height: 150px;
+    
+}
+
+nav {
+    background-color: var(--cor02);
+    padding: 7px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1{
+    font-family: var(--fonte-italia);
+    font-weight: normal;
+    text-align: center;
+    font-size: 7em;
+}
+
+main{
+    margin: auto;
+    min-width: 300px;
+    max-width: 1100px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+    font-family: var(--fonte-neoris);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+} 
+
+main p{
+    font-size: 1.2em;
+    text-indent: 25px;
+    margin-bottom: 30px;
+}
+
+main ul{
+    list-style-position: inside;
+}
+
+main ol{
+    list-style-position: inside;
+}

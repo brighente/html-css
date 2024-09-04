@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'italia';
+    src: url('fonts/Voice of Truth.otf') format('opentype'), url('fonts/Voice of Truth.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'milestone';
+    src: url('fonts/MilestoneBrush.otf') format('opentype'), url('fonts/MilestoneBrush.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'neoris';
+    src: url('fonts/TT Neoris Trial Light.ttf') format('truetype');
+}
+
+body{
+    background-image: linear-gradient(to left, #D4C2AD, #EFDFCC);
+    font-size: 20px;
+    color: #66796B;
+    font-family: 'neoris';
+}
+
+h1{
+    font-family: 'italia';
+    font-weight: normal;
+    text-align: center;
+    color: #BA8E7A;
+    font-size: 5em;
+}
+
+main{
+    background-color: white;
+    width: 770px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px hsla(31, 13%, 55%, 0.705);
+    
+}
+
+div#prep{
+    background-color: white;
+    width: 770px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 117px;
+    box-shadow: 5px 5px 5px hsla(31, 13%, 55%, 0.705);
+    float: right;
+    margin-right: 75px;
+}
+
+div#dica{
+    background-color: white;
+    width: 770px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px hsla(31, 13%, 55%, 0.705);
+    margin-top: 710px;
+    text-align: center;
+    
+    
+}
+
+div#rec{
+    background-color: white;
+    width: 770px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px hsla(31, 13%, 55%, 0.705);
+    float: left;
+    margin-left: 75px;
+    
+}
+h2{
+    text-align: center;
+}
+h2#estranho{
+    margin-right: 210px;
+}
+
+
+
+
+
+
+

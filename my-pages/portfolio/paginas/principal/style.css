@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root{
+    --branco: #FFFFFF;
+    --cor1: #5BC0BE;
+    --cor1-1: #8cc2c18a;
+    --cor2: #3A506B;
+    --cor3: #1C2541;
+    --cor3-1: #2a3a64;
+    --cor4: #0B132B;
+    --cor5: #F2921D;
+    --fonte-titulo: 'form';
+    --fonte-padrao: arial, helvetica, sans-serif;
+    --fonte-bebas: 'Bebas Neue';
+    --fonte-inter: 'Inter';
+}
+
+header{
+    background-color: var(--cor3);
+    color: white;
+    padding: 35px 10px 0px 10px;
+}
+
+header a{
+    color: var(--cor1);
+    text-decoration: none;
+
+}

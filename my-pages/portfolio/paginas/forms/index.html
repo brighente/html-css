@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="João Vitor Brighente de Souza">
+    <meta name="description" content="Formulário">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Formulario Geral</h1>
+    </header>
+    <nav>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-mobile"></i> Contato</a>
+    </nav>
+    <main>
+        <form action="https://api.sheetmonkey.io/form/9cCVuxREMVFmQzxNuj2eA4" method="post" id="formulario">
+            <h2>Informações Gerais</h2>
+            <section>
+                <article>
+                    <label>Nome completo: <input type="text" id="nome" name="nome" placeholder="Ex: Jose da Silva" class="caixa"></label>
+                </article>
+                <article>
+                    <label>Email: <input type="email" name="email" id="email" placeholder="Ex: josedasilva@gmail.com" class="caixa"></label>
+                </article>
+                <article>
+                    <label>Telefone: <input type="tel" id="tel" name="tel" placeholder="(xx)9xxxx-xxxx" class="caixa"></label>
+                </article>
+                <article>
+                    <label>Data de Nascimento: <input type="date" id="nasc" name="nasc" class="caixa"> </label>
+                </article>
+                <article>
+                    <p>Genero:</p>
+                    <input type="radio" name="genero" id="feminino">
+                    <label for="feminino">Feminino</label> <br>
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="masculino">Masculino</label>
+                </article>
+            </section>
+            <h2>Competências</h2>
+            <section>
+                <article>
+                    <h3>Fluente em:</h3>
+                    <input type="checkbox" name="ingles" id="ingles">
+                    <label for="ingles">Ingles</label><br>
+                    <input type="checkbox" name="espanhol" id="espanhol">
+                    <label for="espanhol">Espanhol</label><br>
+                    <input type="checkbox" name="frances" id="frances">
+                    <label for="frances">Francês</label><br>
+                    <input type="checkbox" name="italiano" id="italiano">
+                    <label for="italiano">Italiano</label><br>
+                    <input type="checkbox" name="nenhum" id="nenhum">
+                    <label for="nenhum">Nenhum</label>
+                </article>
+                <article>
+                    <h3>Investimentos</h3>
+                    <label for="invest">De R$ 0 a R$ 10000: </label>
+                    <input type="range" id="invest" name="invest" min="0" max="10000" step="500">
+                </article>
+            </section>
+            <h2>Preferências</h2>
+            <section>
+                <article>
+                    <label>Cor Preferida: <input type="color" id="cor" name="cor"></label>
+                </article>
+                <article>
+                    <label>Esporte Preferido: </label>
+                    <input type="text" name="esporte" id="esporte" list="listaEsportes" class="caixa">
+                        <datalist id="listaEsportes">
+                            <option value="Futebol"></option>
+                            <option value="Volei"></option>
+                            <option value="Basquete"></option>
+                            <option value="Handebol"></option>
+                        </datalist>
+                </article>
+                <article>
+                    Comida Preferida: 
+                    <select name="comida" id="comida" class="caixa">
+                        <optgroup label="Salgadas">
+                            <option value="pizza">Pizza</option>
+                            <option value="macarrao">Macarrão</option>
+                            <option value="panqueca">Panqueca</option>
+                            <option value="lasanha">Lasanha</option>
+                        </optgroup>
+                        <optgroup label="Doces">
+                            <option value="bolo">Bolo</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="sorvete">Sorvete</option>
+                            <option value="torta">Torta</option>
+                        </optgroup>
+                    </select>
+                </article>
+                <article>
+                    <label>Observação: <input type="obs" id="obs" name="obs" placeholder="Obs:" class="caixa"></label>
+                </article>
+            </section>
+        </form>
+        <div id="button">
+            <button form="formulario" type="submit" class="botao">Enviar Respostas</button>
+        </div>
+    </main>
+    <footer>
+            <div id="conteudo">
+                <p id="logo">
+                    <i class="fa-solid fa-pepper-hot"></i>
+                </p>
+                <p id="copy">
+                    Copyright &copy; 2024 . Feito por <span>João Brighente</span>
+                </p>
+                <div id="footer-links">
+                    <a href="https://www.instagram.com/joao.souzaa06/" target="_blank" class="links"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/joaovitorbrighente/" target="_blank" class="links"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/brighente" target="_blank" class="links"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/joao_souzaa06" target="_blank" class="links"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        
+        
+    </footer>
+</body>
+</html>
