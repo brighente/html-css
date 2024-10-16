@@ -1,0 +1,48 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: #737373;
+}
+
+thead, tfoot{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+tbody tr:nth-child(2n-1){  /* odd (ímpar) */
+    background-color: white;
+}
+
+tbody tr:nth-child(2n){  /* even (par) */
+    background-color: lightgrey;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 7px;
+    background-color: rgb(158, 158, 158);
+}
+
+.num{
+    text-align: right;
+}
+
+.populacao{
+    width: 70px;
+}
