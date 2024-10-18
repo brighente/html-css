@@ -1,0 +1,33 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+caption{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.cNome{
+    background-color: darkslategrey;
+}
+
+.cGrupo{
+    background-color: red;
+}
+
+.cProf{
+    background-color: brown;
+}
