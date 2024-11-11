@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Bazuca Online</h1>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Saiba Mais</a></li>
+            </ul>
+        </menu>
+        <span id="burguer" class="material-symbols-outlined">menu</span>
+    </header>
+    <main>
+        <article>
+            <h2>Bazucas</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore optio minima sequi blanditiis provident, deserunt vitae eius doloremque repellendus, cumque vero. Possimus ea suscipit hic minima quos modi illo voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, error incidunt! Temporibus itaque libero aperiam et laborum esse facere, praesentium suscipit odio voluptatem rem unde voluptatibus sit voluptate, inventore earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde natus ratione minus accusantium dolorem ullam repudiandae quos amet consectetur enim! Vero explicabo provident aliquid architecto molestias quidem deleniti dolorem rerum?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti quibusdam alias sunt quia perspiciatis nisi. Nisi adipisci assumenda, animi magnam quos laudantium deserunt omnis necessitatibus incidunt, error, consequuntur earum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, autem? Tenetur aperiam ipsa saepe harum nisi quo possimus explicabo modi. Omnis delectus doloribus totam inventore, ipsam blanditiis ullam placeat eius!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, commodi reiciendis necessitatibus accusamus itaque sapiente eum quae corrupti, repellat earum voluptatem? Reiciendis officia accusantium cumque aspernatur! Temporibus in accusamus modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sit quaerat recusandae dolore cupiditate illum pariatur consequuntur, doloremque quas enim ea harum. Officia ex dolorem quaerat laborum, suscipit voluptate omnis!
+            </p>
+        </article>
+    </main>
+
+    <script>
+        
+        burguer.onclick = clickMenu
+        
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+                header.style.display = 'flex'
+            } else {
+                itens.style.display = 'block'
+                header.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

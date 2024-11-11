@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: rgb(125, 190, 125);
+}
+
+header{
+    background-color: rgb(43, 119, 43);
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+menu{
+    display: none;
+}
+
+menu a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 119, 43);
+    padding: 10px;
+    border-top: 2px solid rgb(35, 105, 35);
+}
+
+menu a:hover{
+    background-color: rgb(69, 184, 69);
+    color: rgb(43, 119, 43);
+}
+
+#burguer{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(26, 73, 26);
+    border-top: 2px solid rgb(35, 105, 35);
+}
+
+#burguer:hover{
+    background-color: rgb(69, 184, 69);
+    color: rgb(43, 119, 43);
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(43, 119, 43);
+    border: 2px solid rgb(24, 71, 24);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+article h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+article p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
